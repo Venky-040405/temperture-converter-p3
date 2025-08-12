@@ -1,0 +1,192 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1500px;
+    font-style: normal;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("C:/Users/VENKATESH/AppData/Local/Temp/93f8e22b-8f23-4940-bf2c-37a1672c491e_flat-design-winter-background.zip.91e/4490938.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.fa-solid {
+    font-size: xx-large;
+}
+
+.main {
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    margin-top: 40px;
+    background-color: #ffffff;
+    box-shadow: -1px -2px 20px 13px rgb(165, 165, 165);
+}
+
+.title .h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+select {
+    font-size: xx-large;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+option {
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.option1,
+.option2 {
+    border-radius: 10px;
+
+}
+
+#num {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#num,
+#num2 {
+    font-size: x-large;
+}
+
+#btn {
+    font-size: x-large;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 40px;
+}
+
+#btn:hover {
+    background-color: aqua;
+    border-radius: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.col {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .main {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: initial;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        backdrop-filter: blur(8px);
+        margin-top: 40px;
+        background-color: #ffffff;
+        box-shadow: -1px -2px 20px 13px rgb(165, 165, 165);
+    }
+
+    .div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: small;
+    }
+
+    .title .h1 {
+        font-size: x-large;
+    }
+
+    select {
+        font-size: large;
+        height: auto;
+        width: auto;
+        border-radius: 10px;
+        text-align: center;
+        border: 2px solid black;
+    }
+
+    option {
+        font-size: large;
+    }
+
+    #num,
+    #num2 {
+        font-size: large;
+    }
+
+    #btn {
+        font-size: large;
+    }
+
+
+    .col {
+        color: rgb(0, 0, 0);
+        background-color: aqua;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    .col {
+        font-size: large;
+    }
+}

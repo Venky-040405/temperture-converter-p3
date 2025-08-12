@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b97b0f7ef7.js" crossorigin="anonymous"></script>
+    <section class="main" id="main">
+        <div class="title">
+            <h1 class="h1">
+                Temperature Converter<i class="fa-solid fa-temperature-low"></i>
+            </h1>
+        </div>
+
+        <div class="selection">
+            <select name="pr1" id="pr1">
+                <option value="celsius" class="option1">celsius</option>
+                <option value="fahrenheit" class="option2">fahrenheit</option>
+                <option value="kelvin" class="option3">kelvin</option>
+            </select>
+            <i class="fa-solid fa-arrow-right"></i>
+            <select name="pr2" id="pr2">
+                <option value="fahrenheit" class="option2">fahrenheit</option>
+                <option value="celsius" class="option1">celsius</option>
+                <option value="kelvin" class="option3">kelvin</option>
+            </select>
+        </div>
+
+        <div class="value">
+            <div class="div">
+                <label for="num" id="num2">Enter a Degree: </label>
+                <input type="number" name="num" id="num" type="string" required="true">
+            </div>
+            <button type="button" id="btn">Convert</button>
+        </div>
+        <div class="result">
+            <h1 class="h15" id="value1"></h1>
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
